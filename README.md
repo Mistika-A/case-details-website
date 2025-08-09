@@ -1,3 +1,5 @@
+# case-details-website
+
 **Project Overview**:
 This is a Flask-based web application that allows users to fetch detailed case information from district courts by entering the case number. It uses a public API to retrieve real-time court case data and displays it in a user-friendly interface.
 
@@ -24,5 +26,3 @@ HTML, CSS (for frontend templates)
 4)Run python app.py.
 5)Open http://127.0.0.1:5000 in your browser.
 6)Enter a case number to get the case details.
-
-# case-details-website
