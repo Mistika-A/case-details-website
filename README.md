@@ -13,11 +13,11 @@ SQLite database integration (optional) for storing or caching case data.
 
 **Technologies Used:**
 
-Python 3.x
-Flask Web Framework
-SQLite (for local data storage)
-Requests library (for API calls)
-HTML, CSS (for frontend templates)
+Python 3.x,
+Flask Web Framework,
+SQLite (for local data storage),
+Requests library (for API calls),
+HTML, CSS (for frontend templates),
 
 **How to Run:**
 1)Clone this repo.
