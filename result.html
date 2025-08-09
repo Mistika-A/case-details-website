@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Case Result</title>
+</head>
+<body>
+    <h1>Case Details</h1>
+    <p><strong>Case Type:</strong> {{ query.case_type }}</p>
+    <p><strong>Case Number:</strong> {{ query.case_number }}</p>
+    <p><strong>Filing Year:</strong> {{ query.filing_year }}</p>
+    <hr>
+    <p><strong>Parties:</strong> {{ parsed.parties }}</p>
+    <p><strong>Filing Date:</strong> {{ parsed.filing_date }}</p>
+    <p><strong>Next Hearing:</strong> {{ parsed.next_hearing }}</p>
+
+    {% if parsed.latest_pdf %}
+        <p><a href="/download?url={{ parsed.latest_pdf }}">Download Latest Order PDF</a></p>
+    {% endif %}
+
+    <br>
+    <a href="/">Search Again</a>
+</body>
+</html>
